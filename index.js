@@ -4,6 +4,7 @@ for(var i = 0; i < document.querySelectorAll("button").length; i++)
     {
       var buttonId = this.innerHTML;
       playSound(buttonId);
+      addAnimation(buttonId);
     }
   );
 }
@@ -11,6 +12,7 @@ for(var i = 0; i < document.querySelectorAll("button").length; i++)
 document.addEventListener("keydown", function(event)
   {
     playSound(event.key);
+    addAnimation(event.key);
   }
 );
 
@@ -191,4 +193,14 @@ function playSound(key)
     var audio = new Audio("sound/'.ogg");
     audio.play();
   }
+}
+
+function addAnimation(keyEvent)
+{
+  document.querySelector("."+keyEvent).classList.add("pressed");
+  setTimeout(function()
+  {
+    document.querySelector("."+keyEvent).classList.remove("pressed");
+  }
+  , 100);
 }
