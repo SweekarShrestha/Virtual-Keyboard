@@ -1,0 +1,62 @@
+body
+{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+button
+{
+  margin-top: 0;
+}
+
+.heading
+{
+  font-family: 'Monda', sans-serif;
+  letter-spacing: 20px;
+  font-size: 3rem;
+}
+
+.Main-Frame
+{
+  margin-top: 20%;
+}
+
+.link
+{
+  font-family: 'Monda', sans-serif;
+  padding-top: 150px;
+  font-size: 2rem;
+  color: white;
+  font-weight: lighter;
+}
+
+.white-keys
+{
+  height: 200px;
+  width: 40px;
+  background-color: white;
+  color: black;
+  border-color: #9cada4;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.black-keys
+{
+  height: 185px;
+  width: 25px;
+  background-color: #323232;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.black-keys.hover
+{
+  background-color: black;
+}
+
+.button.hover
+{
+  color: blue;
+}
