@@ -12,6 +12,7 @@ for(var i = 0; i < document.querySelectorAll("button").length; i++)
 document.addEventListener("keydown", function(event)
   {
     playSound(event.key);
+
     addAnimation(event.key);
   }
 );
@@ -175,7 +176,7 @@ function playSound(key)
   }
   else if(key === ".")
   {
-    var audio = new Audio("sound/..ogg");
+    var audio = new Audio("sound/dot.ogg");
     audio.play();
   }
   else if(key === ";")
