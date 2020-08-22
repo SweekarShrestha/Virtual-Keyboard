@@ -10,6 +10,11 @@ button
   margin-top: 0;
 }
 
+h3
+{
+  font-family: 'Monda', sans-serif;
+}
+
 .heading
 {
   font-family: 'Monda', sans-serif;
@@ -17,15 +22,38 @@ button
   font-size: 3rem;
 }
 
+ul
+{
+  line-height: 2;
+}
+
+.pause
+{
+  font-family: 'Lato', sans-serif;
+  color: #96bb7c;
+}
+
+.notes
+{
+  color: #00b7c2;
+}
+
 .Main-Frame
 {
-  margin-top: 20%;
+  margin-top: 10%;
+  padding-bottom: 60px;
+}
+
+.song-list
+{
+  display: inline-block;
+  text-align: left;
+  font-weight: 100;
 }
 
 .link
 {
   font-family: 'Monda', sans-serif;
-  padding-top: 150px;
   font-size: 2rem;
   color: white;
   font-weight: lighter;
@@ -54,6 +82,11 @@ button
 .black-keys.hover
 {
   background-color: black;
+}
+
+.instructions-header
+{
+  text-align: center;
 }
 
 
